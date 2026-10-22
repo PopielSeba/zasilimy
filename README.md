@@ -87,7 +87,40 @@ Osobne strony wynajmu, zakupu, doboru i trzech zastosowań odpowiadają na róż
 
 ## Publikacja
 
-**Status: w przygotowaniu.** Docelowy projekt Vercel: **zasilimy**. Docelowa domena: **zasilimy.pl**.
+**Status na 22 października 2026: strona opublikowana; własna domena oczekuje na zmianę DNS w UT.pl.**
 
-`vercel.json` uruchamia `npm run build && npm run check && npm test`, publikuje katalog `dist` i włącza `trailingSlash: true`. Adres repozytorium, działający deployment oraz ustawienia domeny zostaną uzupełnione po ich rzeczywistym utworzeniu i sprawdzeniu.
+- Działająca strona: **https://zasilimy.vercel.app/**
+- Repozytorium: **https://github.com/PopielSeba/zasilimy**
+- Panel domen: **https://vercel.com/sebastians-projects-e047c519/zasilimy/settings/domains**
+- Projekt: **zasilimy**, zespół **Sebastian's projects** (`sebastians-projects-e047c519`).
+- Commit źródłowy wdrożenia: `cb541b9447e179cf68a7918953744baefc9e7830`.
+
+`vercel.json` uruchamia `npm run build && npm run check && npm test`, publikuje katalog `dist` i włącza `trailingSlash: true`. GitHub jest połączony z Vercel; zmiana gałęzi `main` uruchamia kolejne wdrożenie.
+
+### Rekordy do ustawienia w UT.pl
+
+Poniższe wartości zostały odczytane z panelu tego projektu w Vercelu:
+
+| Nazwa / host | Typ | Wartość |
+| --- | --- | --- |
+| `@` | `A` | `216.198.79.1` |
+| `www` | `CNAME` | `ac742a2b740fd5e0.vercel-dns-017.com.` |
+
+1. Dla `@` zastąp dotychczasowy rekord A `54.38.201.206` wartością `216.198.79.1`.
+2. Dla `www` zastąp dotychczasowy rekord A `54.38.201.206` rekordem CNAME podanym w tabeli. Rekord A i CNAME nie powinny współistnieć dla tej samej nazwy `www`.
+3. Pozostaw TTL domyślny lub 3600 sekund. Zachowaj rekordy poczty (w tym MX), weryfikacyjne i serwery nazw UT.
+
+W Vercelu dodano `zasilimy.pl` do **Production** oraz `www.zasilimy.pl` jako **308 Permanent Redirect → zasilimy.pl**. Status **Invalid Configuration** oznacza obecnie, że DNS nadal wskazuje dotychczasowy serwer UT. Zmian w panelu UT nie wykonano. Po propagacji należy sprawdzić status domen i certyfikatu HTTPS oraz wejście przez oba adresy.
+
+### Sprawdzenie przed publikacją i po wdrożeniu
+
+- Build, kontrola 11 plików HTML / 11 bloków JSON-LD / 447 lokalnych odwołań oraz testy generatora zapytania: poprawne.
+- Sprawdzono w przeglądarce stronę główną, ofertę, poradnik, galerię, menu mobilne, formularz wynajmu i zakupu oraz kopiowanie treści. W widoku mobilnym o szerokości 375 px nie ma poziomego przewijania.
+- Kontrola produkcji: 34 odczyty HTTP; 10 publicznych tras zwraca 200, nieistniejący adres zwraca własne 404 z `noindex`, sitemap zawiera 10 właściwych adresów, a 17 sprawdzonych zasobów zwraca poprawne odpowiedzi i typy MIME.
+- Canonicale, sitemap i dane strukturalne używają docelowej domeny `https://zasilimy.pl`.
+- Potwierdzono nagłówki `X-Content-Type-Options`, `Referrer-Policy` i `Permissions-Policy`.
+
+### Google Search Console po podłączeniu domeny
+
+Po uruchomieniu domeny dodaj lub zweryfikuj usługę `zasilimy.pl` w Google Search Console. Rekord weryfikacyjny pobierz z tej konkretnej usługi. Mapa do zgłoszenia: `https://zasilimy.pl/sitemap.xml`. Weryfikacja Search Console nie została wykonana w ramach publikacji.
 
