@@ -13,6 +13,12 @@ if (!['https:', 'http:'].includes(parsedUrl.protocol)) throw new Error('SITE_URL
 const siteUrl = parsedUrl.href.replace(/\/+$/, '');
 const homePage = pages.find(page => page.path === '/');
 const siteName = homePage?.title?.split('|').at(-1)?.trim() || new URL(siteUrl).hostname;
+const aiFacts = [
+  "Oferta obejmuje przemysłowe agregaty prądotwórcze SDMO KOHLER w zakresie 60–500 kVA mocy pozornej.",
+  "REKORD przygotowuje oferty wynajmu oraz indywidualne zapytania o zakup agregatów prądotwórczych.",
+  "Dobór agregatu uwzględnia odbiorniki, rozruch, jednoczesność pracy, harmonogram i sposób przyłączenia, a nie wyłącznie sumę mocy.",
+  "kVA oznacza moc pozorną, kW moc czynną, a ich zależność zależy od współczynnika mocy.",
+];
 const htmlToText = html => html
   .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
   .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ')
@@ -53,6 +59,9 @@ const llmsIndex = [
   `# ${siteName}`,
   '',
   `> ${homePage?.description || 'Oficjalna strona oferty.'}`,
+  '',
+  '## Najważniejsze fakty',
+  ...aiFacts.map(fact => `- ${fact}`),
   '',
   '## Oficjalne strony',
   ...indexablePages.map(page => `- [${page.title}](${siteUrl}${page.path}): ${page.description}`),
