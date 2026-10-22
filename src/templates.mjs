@@ -139,7 +139,7 @@ function notFound() {
 }
 
 export const pages = [
-  { path: '/', active: 'home', title: 'Zasilimy — wynajem i sprzedaż agregatów prądotwórczych', description: 'Agregaty prądotwórcze SDMO KOHLER 60–500 kVA. Wynajem i zapytania o zakup, dobór do odbiorników oraz dostawa w Polsce i UE. Budowy, eventy, zasilanie rezerwowe.', render: home },
+  { path: '/', active: 'home', title: 'Wynajem i sprzedaż agregatów prądotwórczych | Zasilimy', description: 'Agregaty prądotwórcze SDMO KOHLER 60–500 kVA. Wynajem i zapytania o zakup, dobór do odbiorników oraz dostawa w Polsce i UE. Budowy, eventy, zasilanie rezerwowe.', render: home },
   ...['rental', 'sale'].map(type => ({ path: paths[type], active: type, title: servicePages[type].metaTitle, description: servicePages[type].metaDescription, crumbs: [{ name: servicePages[type].eyebrow, path: paths[type] }], render: () => service(type) })),
   { path: paths.catalog, active: 'catalog', title: 'Agregaty prądotwórcze SDMO KOHLER 60–500 kVA | Zasilimy', description: 'Poznaj ofertę agregatów SDMO KOHLER w zakresie 60–500 kVA mocy pozornej. Indywidualny dobór modelu, wyposażenia i warunków wynajmu lub zakupu.', crumbs: [{ name: 'Agregaty prądotwórcze', path: paths.catalog }], render: catalog },
   ...equipment.map(item => ({ path: productPath(item), active: 'series', series: item, title: `${item.name} — agregaty na wynajem i zapytanie o zakup | Zasilimy`, description: `Oferta agregatów ${item.name}, 60–500 kVA mocy pozornej. Poznaj zastosowania i zakres doboru. Model, parametry oraz wyposażenie potwierdzamy indywidualnie.`, crumbs: [{ name: 'Agregaty prądotwórcze', path: paths.catalog }, { name: item.name, path: productPath(item) }], render: () => series(item) })),
