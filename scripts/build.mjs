@@ -14,7 +14,7 @@ const siteUrl = parsedUrl.href.replace(/\/+$/, '');
 const homePage = pages.find(page => page.path === '/');
 const siteName = homePage?.title?.split('|').at(-1)?.trim() || new URL(siteUrl).hostname;
 const aiFacts = [
-  "Oferta obejmuje przemysłowe agregaty prądotwórcze SDMO KOHLER w zakresie 60–500 kVA mocy pozornej.",
+  "Park maszynowy REKORD obejmuje około 500 agregatów prądotwórczych o różnej mocy; oferta obejmuje m.in. SDMO KOHLER w zakresie 60–500 kVA mocy pozornej.",
   "REKORD przygotowuje oferty wynajmu oraz indywidualne zapytania o zakup agregatów prądotwórczych.",
   "Dobór agregatu uwzględnia odbiorniki, rozruch, jednoczesność pracy, harmonogram i sposób przyłączenia, a nie wyłącznie sumę mocy.",
   "kVA oznacza moc pozorną, kW moc czynną, a ich zależność zależy od współczynnika mocy.",
