@@ -1,0 +1,289 @@
+{
+  "brand": "Zasilimy",
+  "domain": "zasilimy.pl",
+  "note": "Authentic SDMO KOHLER / KOHLER photographs from official pozyczmnie.pl sources. No generated imagery. Full frames retained.",
+  "reviewedAt": "2026-10-22T10:15:11.665951+00:00",
+  "sourcePages": [
+    "https://www.pozyczmnie.pl/agregaty-pradotworcze",
+    "https://www.pozyczmnie.pl/",
+    "https://halenamiotowe.com.pl/nasze-produkty/zaplecze-techniczne/"
+  ],
+  "referenceDocuments": [
+    "https://halenamiotowe.com.pl/wp-content/uploads/2025/01/20_05_Produkty_Zaplecze-techniczne-Agregaty-pradotworcze.pdf"
+  ],
+  "assets": [
+    {
+      "file": "generator-hero.webp",
+      "source": "https://www.pozyczmnie.pl/assets/generator-1-desktop-CL0SpASQ.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/agregaty-pradotworcze",
+      "sourceSha256": "1c60ca799dcff22d9e89f6110033c5fd79fc58092dd85aed7099394dd60a2954",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 1600,
+      "height": 1200,
+      "bytes": 211270,
+      "format": "WEBP",
+      "alt": "Flota agregatów SDMO KOHLER na placu REKORD",
+      "usageNotes": "Rzeczywiste niebieskie jednostki SDMO KOHLER na placu. Nie przypisywać konkretnego modelu ani mocy egzemplarza i nie przedstawiać jako udokumentowanej realizacji.",
+      "transformations": "Original source WebP retained byte-for-byte. No crop or image alteration.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "generator-hero-640.webp",
+      "source": "https://www.pozyczmnie.pl/assets/generator-1-desktop-CL0SpASQ.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/agregaty-pradotworcze",
+      "sourceSha256": "1c60ca799dcff22d9e89f6110033c5fd79fc58092dd85aed7099394dd60a2954",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 640,
+      "height": 480,
+      "bytes": 48740,
+      "format": "WEBP",
+      "alt": "Flota agregatów SDMO KOHLER na placu REKORD",
+      "usageNotes": "Rzeczywiste niebieskie jednostki SDMO KOHLER na placu. Nie przypisywać konkretnego modelu ani mocy egzemplarza i nie przedstawiać jako udokumentowanej realizacji.",
+      "transformations": "Technical resize to 640x480, WebP quality 80. Full source frame retained, with no crop, semantic editing or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "generator-hero-960.webp",
+      "source": "https://www.pozyczmnie.pl/assets/generator-1-desktop-CL0SpASQ.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/agregaty-pradotworcze",
+      "sourceSha256": "1c60ca799dcff22d9e89f6110033c5fd79fc58092dd85aed7099394dd60a2954",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 960,
+      "height": 720,
+      "bytes": 95542,
+      "format": "WEBP",
+      "alt": "Flota agregatów SDMO KOHLER na placu REKORD",
+      "usageNotes": "Rzeczywiste niebieskie jednostki SDMO KOHLER na placu. Nie przypisywać konkretnego modelu ani mocy egzemplarza i nie przedstawiać jako udokumentowanej realizacji.",
+      "transformations": "Technical resize to 960x720, WebP quality 80. Full source frame retained, with no crop, semantic editing or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "sdmo-kohler.webp",
+      "source": "https://www.pozyczmnie.pl/assets/generator-2-BM6xPA2h.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/agregaty-pradotworcze",
+      "sourceSha256": "6e03b2850a534114b569a0c24276c4d161d0da48da80dbcc3cbe6da2a403d4f9",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 1600,
+      "height": 1200,
+      "bytes": 165068,
+      "format": "WEBP",
+      "alt": "Agregaty SDMO KOHLER Rental Power Compact z oferty REKORD",
+      "usageNotes": "Białe agregaty z widocznym oznaczeniem SDMO KOHLER oraz Rental Power Compact. Fotografia ilustruje ofertę serii; nie wskazuje potwierdzonej mocy ani modelu konkretnego egzemplarza.",
+      "transformations": "Original source WebP retained byte-for-byte. No crop or image alteration.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "sdmo-kohler-640.webp",
+      "source": "https://www.pozyczmnie.pl/assets/generator-2-BM6xPA2h.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/agregaty-pradotworcze",
+      "sourceSha256": "6e03b2850a534114b569a0c24276c4d161d0da48da80dbcc3cbe6da2a403d4f9",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 640,
+      "height": 480,
+      "bytes": 43048,
+      "format": "WEBP",
+      "alt": "Agregaty SDMO KOHLER Rental Power Compact z oferty REKORD",
+      "usageNotes": "Białe agregaty z widocznym oznaczeniem SDMO KOHLER oraz Rental Power Compact. Fotografia ilustruje ofertę serii; nie wskazuje potwierdzonej mocy ani modelu konkretnego egzemplarza.",
+      "transformations": "Technical resize to 640x480, WebP quality 80. Full source frame retained, with no crop, semantic editing or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "sdmo-kohler-960.webp",
+      "source": "https://www.pozyczmnie.pl/assets/generator-2-BM6xPA2h.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/agregaty-pradotworcze",
+      "sourceSha256": "6e03b2850a534114b569a0c24276c4d161d0da48da80dbcc3cbe6da2a403d4f9",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 960,
+      "height": 720,
+      "bytes": 83856,
+      "format": "WEBP",
+      "alt": "Agregaty SDMO KOHLER Rental Power Compact z oferty REKORD",
+      "usageNotes": "Białe agregaty z widocznym oznaczeniem SDMO KOHLER oraz Rental Power Compact. Fotografia ilustruje ofertę serii; nie wskazuje potwierdzonej mocy ani modelu konkretnego egzemplarza.",
+      "transformations": "Technical resize to 960x720, WebP quality 80. Full source frame retained, with no crop, semantic editing or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "generator-fleet.webp",
+      "source": "https://www.pozyczmnie.pl/assets/generator-4-6FFqfbzK.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/",
+      "sourceSha256": "3066c12c0f346cd5d9c5ce45b2e0409c0163f0cc0e7d68d9c8ac30f25cf30c4a",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 1600,
+      "height": 1200,
+      "bytes": 142998,
+      "format": "WEBP",
+      "alt": "Agregaty KOHLER z floty REKORD",
+      "usageNotes": "Rzeczywiste beżowe agregaty KOHLER z naklejkami REKORD na placu. Pełny główny agregat na pierwszym planie. Nie traktować wspólnego ustawienia urządzeń jako dowodu połączenia lub pracy równoległej.",
+      "transformations": "Original source WebP retained byte-for-byte. No crop or image alteration.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "generator-fleet-640.webp",
+      "source": "https://www.pozyczmnie.pl/assets/generator-4-6FFqfbzK.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/",
+      "sourceSha256": "3066c12c0f346cd5d9c5ce45b2e0409c0163f0cc0e7d68d9c8ac30f25cf30c4a",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 640,
+      "height": 480,
+      "bytes": 34010,
+      "format": "WEBP",
+      "alt": "Agregaty KOHLER z floty REKORD",
+      "usageNotes": "Rzeczywiste beżowe agregaty KOHLER z naklejkami REKORD na placu. Pełny główny agregat na pierwszym planie. Nie traktować wspólnego ustawienia urządzeń jako dowodu połączenia lub pracy równoległej.",
+      "transformations": "Technical resize to 640x480, WebP quality 80. Full source frame retained, with no crop, semantic editing or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "generator-fleet-960.webp",
+      "source": "https://www.pozyczmnie.pl/assets/generator-4-6FFqfbzK.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/",
+      "sourceSha256": "3066c12c0f346cd5d9c5ce45b2e0409c0163f0cc0e7d68d9c8ac30f25cf30c4a",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 960,
+      "height": 720,
+      "bytes": 67788,
+      "format": "WEBP",
+      "alt": "Agregaty KOHLER z floty REKORD",
+      "usageNotes": "Rzeczywiste beżowe agregaty KOHLER z naklejkami REKORD na placu. Pełny główny agregat na pierwszym planie. Nie traktować wspólnego ustawienia urządzeń jako dowodu połączenia lub pracy równoległej.",
+      "transformations": "Technical resize to 960x720, WebP quality 80. Full source frame retained, with no crop, semantic editing or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "generator-hero-mobile.webp",
+      "source": "https://www.pozyczmnie.pl/assets/generator-1-desktop-CL0SpASQ.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/agregaty-pradotworcze",
+      "sourceSha256": "1c60ca799dcff22d9e89f6110033c5fd79fc58092dd85aed7099394dd60a2954",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 800,
+      "height": 600,
+      "bytes": 65608,
+      "format": "WEBP",
+      "alt": "Flota agregatów SDMO KOHLER na placu REKORD",
+      "usageNotes": "Rzeczywiste niebieskie jednostki SDMO KOHLER na placu. Nie przypisywać konkretnego modelu ani mocy egzemplarza i nie przedstawiać jako udokumentowanej realizacji.",
+      "transformations": "Technical resize to 800x600, WebP quality 78. Full source frame retained, with no crop, semantic editing or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "generator-og.jpg",
+      "source": "https://www.pozyczmnie.pl/assets/generator-1-desktop-CL0SpASQ.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/agregaty-pradotworcze",
+      "sourceSha256": "1c60ca799dcff22d9e89f6110033c5fd79fc58092dd85aed7099394dd60a2954",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 1200,
+      "height": 630,
+      "bytes": 144594,
+      "format": "JPEG",
+      "alt": "Flota agregatów SDMO KOHLER na placu REKORD",
+      "usageNotes": "Rzeczywiste niebieskie jednostki SDMO KOHLER na placu. Nie przypisywać konkretnego modelu ani mocy egzemplarza i nie przedstawiać jako udokumentowanej realizacji.",
+      "transformations": "Full original frame resized to 840x630 and centered on a 1200x630 dark canvas. Technical padding only; no crop, text overlay, or generated elements.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "rekord-logo.png",
+      "source": "https://www.pozyczmnie.pl/assets/rekord-logo-Dgm1kGcV.png",
+      "width": 400,
+      "height": 147,
+      "bytes": 27528,
+      "format": "PNG",
+      "alt": "REKORD Hale Namiotowe",
+      "usageNotes": "White logo with transparency; use on dark background. Existing copied logo preserved."
+    }
+  ],
+  "fonts": [
+    {
+      "file": "manrope-400-800-latin.woff2",
+      "family": "Manrope",
+      "weight": "400 800",
+      "style": "normal",
+      "source": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "bytes": 24836,
+      "transformations": "Existing copied font preserved."
+    },
+    {
+      "file": "manrope-400-800-latin-ext.woff2",
+      "family": "Manrope",
+      "weight": "400 800",
+      "style": "normal",
+      "source": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggmxSuXd.woff2",
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "bytes": 15120,
+      "transformations": "Existing copied font preserved."
+    },
+    {
+      "file": "barlow-condensed-600-latin.woff2",
+      "family": "Barlow Condensed",
+      "weight": "600",
+      "style": "normal",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3bWuQ.woff2",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "bytes": 22308,
+      "transformations": "Existing copied font preserved."
+    },
+    {
+      "file": "barlow-condensed-600-latin-ext.woff2",
+      "family": "Barlow Condensed",
+      "weight": "600",
+      "style": "normal",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3jWuZEC.woff2",
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "bytes": 14516,
+      "transformations": "Existing copied font preserved."
+    },
+    {
+      "file": "barlow-condensed-700-latin.woff2",
+      "family": "Barlow Condensed",
+      "weight": "700",
+      "style": "normal",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "bytes": 22444,
+      "transformations": "Existing copied font preserved."
+    },
+    {
+      "file": "barlow-condensed-700-latin-ext.woff2",
+      "family": "Barlow Condensed",
+      "weight": "700",
+      "style": "normal",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3jWuZEC.woff2",
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "bytes": 14640,
+      "transformations": "Existing copied font preserved."
+    }
+  ],
+  "licenses": [
+    {
+      "file": "manrope-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt"
+    },
+    {
+      "file": "barlowcondensed-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt"
+    }
+  ],
+  "review": {
+    "modelScope": "Generic SDMO KOHLER offering only. No model or unit power inferred from photography.",
+    "contexts": "All selected photographs show equipment on the company yard, not a verified operating installation or a specific customer project.",
+    "excluded": [
+      {
+        "source": "https://www.pozyczmnie.pl/assets/generator-3-5-B2VD8C.webp",
+        "reason": "Photograph visibly shows INMESOL units. Excluded from the SDMO KOHLER media set; it also does not establish parallel operation."
+      },
+      {
+        "source": "https://halenamiotowe.com.pl/wp-content/uploads/2025/01/20_05_Produkty_Zaplecze-techniczne-Agregaty-pradotworcze-scaled.jpg",
+        "reason": "Photograph visibly shows ZBC 300-300 units marked UN3536 / lithium batteries. Excluded from generator photography."
+      }
+    ],
+    "technicalChanges": "Responsive resizing and encoding only. Open Graph uses full-frame photograph with dark side padding."
+  }
+}
