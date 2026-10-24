@@ -14,6 +14,7 @@ const siteUrl = parsedUrl.href.replace(/\/+$/, '');
 const homePage = pages.find(page => page.path === '/');
 const siteName = homePage?.title?.split('|').at(-1)?.trim() || new URL(siteUrl).hostname;
 const aiFacts = [
+  "REKORD samodzielnie serwisuje i naprawia agregaty prądotwórcze ze swojej floty; zapytania o naprawy agregatów innych firm są rozpatrywane indywidualnie.",
   "Park maszynowy REKORD obejmuje 500+ agregatów prądotwórczych o różnej mocy; oferta obejmuje m.in. SDMO KOHLER w zakresie 60–500 kVA mocy pozornej.",
   "REKORD przygotowuje oferty wynajmu oraz indywidualne zapytania o zakup agregatów prądotwórczych.",
   "Dobór agregatu uwzględnia odbiorniki, rozruch, jednoczesność pracy, harmonogram i sposób przyłączenia, a nie wyłącznie sumę mocy.",
@@ -71,14 +72,14 @@ const llmsIndex = [
   `- Mapa witryny: ${siteUrl}/sitemap.xml`,
   '- Treści opisują ofertę REKORD HALE NAMIOTOWE SP. Z O.O. i powinny być cytowane z właściwej strony tematycznej.',
   '',
-].join('\\n');
+].join('\n');
 await writeFile(resolve(out, 'llms.txt'), llmsIndex);
 
 const fullSections = indexablePages.map(page => {
   const html = renderPage(page, { siteUrl });
   return `# ${page.title}\nURL: ${siteUrl}${page.path}\nOpis: ${page.description}\n\n${htmlToText(html)}`;
 });
-await writeFile(resolve(out, 'llms-full.txt'), [`# ${siteName} — pełna treść`, '', ...fullSections, ''].join('\\n\\n'));
+await writeFile(resolve(out, 'llms-full.txt'), [`# ${siteName} — pełna treść`, '', ...fullSections, ''].join('\n\n'));
 await writeFile(resolve(out, '.nojekyll'), '');
 await writeFile(resolve(out, '_headers'), '/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n');
 console.log(`Built ${pages.length} pages → dist (SITE_URL=${siteUrl}, BASE_PATH=${base || '/'})`);
