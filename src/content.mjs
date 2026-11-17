@@ -304,8 +304,8 @@ export const servicePages = {
     eyebrow: 'Wynajem agregatów prądotwórczych',
     title: 'Wynajem agregatów prądotwórczych',
     metaTitle: 'Wynajem agregatów prądotwórczych 60–500 kVA | Zasilimy',
-    metaDescription: 'Wynajem agregatów SDMO KOHLER na budowy, eventy i do obiektów. Dobór mocy, konfiguracji oraz dostawy w Polsce i Unii Europejskiej.',
-    intro: 'Wynajem agregatów prądotwórczych SDMO KOHLER do zasilania tymczasowego i rezerwowego. Dobieramy jednostkę do odbiorników, harmonogramu pracy oraz warunków instalacji. Organizujemy dostawę w Polsce i Unii Europejskiej.',
+    metaDescription: 'Wynajem agregatów i generatorów prądotwórczych SDMO KOHLER 60–500 kVA. Dobór mocy, konfiguracji i dostawa na budowy i eventy w Polsce oraz UE.',
+    intro: 'Wynajem agregatów prądotwórczych SDMO KOHLER do zasilania tymczasowego i rezerwowego. Szukasz generatora prądu na budowę lub wydarzenie? Dobieramy jednostkę do odbiorników, harmonogramu pracy oraz warunków instalacji. Organizujemy dostawę w Polsce i Unii Europejskiej.',
     sections: [
       {
         title: 'Na wydarzenie, etap robót lub dłuższy projekt',
