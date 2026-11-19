@@ -107,6 +107,10 @@ export const faq = [
     a: 'Oferta obejmuje przemysłowe agregaty SDMO KOHLER o mocy pozornej jednostek od 60 do 500 kVA. Konkretny model, moc w danym trybie pracy, wyposażenie i dostępność na wskazany termin potwierdzamy w ofercie.',
   },
   {
+    q: 'Co oznacza praca redundantna agregatów prądotwórczych?',
+    a: 'Redundancja oznacza zaplanowanie dodatkowego źródła zasilania na wypadek awarii lub niedostępności jednostki podstawowej. Dobór układu, automatyki przełączenia i wymaganej rezerwy zależy od odbiorników, krytyczności zasilania oraz projektu instalacji. Możemy omówić zapotrzebowanie i przygotować indywidualną propozycję sprzętu; wykonanie układu wymaga właściwego projektu i uzgodnienia sposobu przyłączenia.',
+  },
+  {
     q: 'Jak dobieracie moc agregatu?',
     a: 'Uwzględniamy listę odbiorników, ich parametry, warunki rozruchu i jednoczesnej pracy. Ważne są także harmonogram, rola agregatu oraz sposób przyłączenia. Możesz przesłać zdjęcia tabliczek znamionowych urządzeń.',
   },
